@@ -6,7 +6,8 @@ A multi-page Single Page Application (SPA) built to master **React Router DOM**.
 
 ## 📸 Project Screenshot
 
-![App Screenshot](./preview.png)
+<img width="1440" height="858" alt="Screenshot 2025-12-01 at 1 09 46 AM" src="https://github.com/user-attachments/assets/218062d5-63af-4271-ad74-3535ddefc360" />
+
 
 ## ✨ Features
 
