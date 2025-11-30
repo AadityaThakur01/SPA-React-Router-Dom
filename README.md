@@ -1,17 +1,24 @@
-# React + Vite
+# 🧭 React Router Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-Currently, two official plugins are available:
+A multi-page Single Page Application (SPA) built to master **React Router DOM**. This project demonstrates how to handle client-side routing, nested routes, and layouts in a modern React application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Project Screenshot
 
-## React Compiler
+![App Screenshot](./preview.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Client-Side Routing:** Navigate between pages (Home, About, Contact) without refreshing the browser.
+- **Layout Architecture:** Uses a master `Layout` component with an `<Outlet />` to keep the Header and Footer consistent across all pages.
+- **Active Link Styling:** The navigation bar highlights the current page automatically using `NavLink`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# SPA-React-Router-Dom
+- **Responsive Design:** Fully responsive UI built with Tailwind CSS.
+
+## 🛠️ Tech Stack
+
+- **Framework:** [React.js](https://react.dev/)
+- **Routing:** [React Router DOM (v6+)](https://reactrouter.com/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
